@@ -1,0 +1,37 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color:darkgreen;">
+    <a class="navbar-brand" href="#">Mongo Scraper</a>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkgreen;">
+      <a class=" navbar-brand" href=""></a>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <div class="navbar-nav  float-right">
+     
+            {{!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> --}}
+            <button type="button" class="btn btn-danger ">Home</button>
+      
+       
+            {{!-- <a class="nav-link" href="#">Saved Articles</a> --}}
+            <button id="saved_articles" type="button" class="btn btn-danger ">Saved Articles</button>
+      
+         
+            <button id="scrape_articles" type="button" class="btn btn-danger ">Scrape New Articles</button>
+        
+        </div>
+
+      </div>
+    </nav>
+  </nav>
+</div>
+<div class="container">
+  <div class="row">
+    <div id="articles" class="col"></div>
+
+    <div id="notes" class="col"></div>
+  </div>
+
+
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/app.js"></script>
